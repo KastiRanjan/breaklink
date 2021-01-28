@@ -571,6 +571,16 @@ h5 {
   display: block;
 }
 
+.lifestyle .slider-2 .carousel-inner .carousel-caption {
+  display: none;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-color: #000000a8;
+  padding-left: 80px;
+}
+
 .lifestyle .slider-2 .carousel-indicators {
   margin-top: 60px;
   position: initial !important;
@@ -595,16 +605,6 @@ h5 {
 
 .lifestyle .slider-2 .carousel-indicators li img {
   width: 100%;
-}
-
-.lifestyle .slider-2 .carousel-caption {
-  display: none;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  background-color: #000000a8;
-  padding-left: 80px;
 }
 
 .news-list {
