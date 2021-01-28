@@ -299,6 +299,10 @@ h5 {
   color: #ff5e14 !important;
 }
 
+.page-header__bottom .nav-item.active {
+  font-weight: 600 !important;
+}
+
 .page-header__bottom .navbar-toggler {
   border: none;
 }

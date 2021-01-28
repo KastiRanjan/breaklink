@@ -91,6 +91,9 @@
         color: $vivid-orange !important;
       }
     }
+    .nav-item.active {
+      font-weight: 600 !important;
+    }
     .navbar-toggler {
       border: none;
     }
