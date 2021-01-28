@@ -516,6 +516,34 @@ h5 {
   color: #fff !important;
 }
 
+.lifestyle .carousel-fade .carousel-inner .item {
+  transition-property: opacity;
+}
+
+.lifestyle .carousel-fade .carousel-inner .item,
+.lifestyle .carousel-fade .carousel-inner .active.left,
+.lifestyle .carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+
+.lifestyle .carousel-fade .carousel-inner .active,
+.lifestyle .carousel-fade .carousel-inner .next.left,
+.lifestyle .carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.lifestyle .carousel-fade .carousel-inner .next,
+.lifestyle .carousel-fade .carousel-inner .prev,
+.lifestyle .carousel-fade .carousel-inner .active.left,
+.lifestyle .carousel-fade .carousel-inner .active.right {
+  left: 0;
+  transform: translate3d(0, 0, 0);
+}
+
+.lifestyle .carousel-fade .carousel-control {
+  z-index: 2;
+}
+
 .lifestyle .slider-2 {
   margin: 50px 0px;
 }
