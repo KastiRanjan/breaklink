@@ -86,6 +86,7 @@
     transition: 0.3s linear;
     background-color: #eaeaea;
     .nav-link {
+      font-weight: 600;
       padding-right: 1.5rem !important;
       &:hover {
         color: $vivid-orange !important;
@@ -250,7 +251,7 @@
 }
 
 .ads {
-  padding: 50px 0px;
+  padding: 30px 0px;
   text-align: center;
 }
 
@@ -408,6 +409,7 @@
   bottom: 26px;
   left: 20px;
   color: #fff;
+  font-size: 28px;
   cursor: pointer;
   li {
     &:hover {
@@ -475,5 +477,12 @@
   font-size: 40px !important;
   @include breakpoint-down(medium) {
     font-size: 20px;
+  }
+}
+
+.sy {
+  img {
+    width: 120px !important;
+    border-radius: 50%;
   }
 }

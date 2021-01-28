@@ -110,6 +110,7 @@ h5 {
 }
 
 .news-block .block-header h2 a {
+  font-weight: 600;
   color: #13203d;
 }
 
@@ -292,6 +293,7 @@ h5 {
 }
 
 .page-header__bottom .nav-link {
+  font-weight: 600;
   padding-right: 1.5rem !important;
 }
 
@@ -465,7 +467,7 @@ h5 {
 }
 
 .ads {
-  padding: 50px 0px;
+  padding: 30px 0px;
   text-align: center;
 }
 
@@ -630,6 +632,7 @@ h5 {
   bottom: 26px;
   left: 20px;
   color: #fff;
+  font-size: 28px;
   cursor: pointer;
 }
 
@@ -706,5 +709,10 @@ h5 {
   .gf-h-text {
     font-size: 20px;
   }
+}
+
+.sy img {
+  width: 120px !important;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=style.css.map */
