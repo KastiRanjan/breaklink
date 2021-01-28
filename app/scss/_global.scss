@@ -21,6 +21,7 @@ input:focus {
   box-shadow: none !important;
   outline: none;
 }
+
 ul {
   list-style-type: none;
   padding: 0px;
@@ -85,14 +86,13 @@ h5 {
     }
     h2 {
       display: inline-block;
-
       position: relative;
       text-transform: uppercase;
       background-color: $white;
       padding: 0;
       z-index: 550;
       &::before {
-        background-color: #$white;
+        background-color: $white;
         content: "";
         height: 100%;
         position: absolute;
@@ -125,6 +125,7 @@ h5 {
     .news-item-t2 {
       padding: 0.9375em 0;
       padding-top: 20px;
+
       .news-image {
         margin: 0px;
         img {
@@ -169,8 +170,22 @@ h5 {
       color: $vivid-orange;
 
       &:hover {
-        color: $light-gray;
+        color: #000;
+        font-weight: 600;
       }
     }
   }
+}
 
+// ul {
+//   li {
+//     &::before {
+//       content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+//       color: red; /* Change the color */
+//       font-weight: bold; /* If you want it to be bold */
+//       display: inline-block; /* Needed to add space between the bullet and the text */
+//       width: 5em; /* Also needed for space (tweak if needed) */
+//       font-size: 25px;
+//     }
+//   }
+// }

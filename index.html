@@ -1,491 +1,602 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="/dist/style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/dist/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-  <!-- bl-header -->
-  <div class="bl-header">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-          <div class="bl-header__image-container">
-            <a href="#"> <img width="50%" src="/images/bl-header.gif" alt=""></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- header -->
-  <header class="page-header">
-    <div class="page-header__top">
+    <!-- bl-header -->
+    <div class="bl-header">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-12 col-sm-12 col-md-8 d-flex p-sm-0">
-            <div class="scroll-header">
-              <h4>अन्य संस्करण</h4>
-            </div>
-
-            <div class="select-language">
-              <select name="language" id="">
-                <option value="नेपाली">नेपाली</option>
-                <option value="English">English</option>
-                <option value="Hindi">Hindi</option>
-                <option value="Español">Español</option>
-                <option value="한국어">عربي</option>
-                <option value="عربي">عربي</option>
-              </select>
-            </div>
-            <div class="scroll-news-content">
-              <ul class="">
-                <li><a class="scroll-news-content__item" href="#">नेपाली</a></li>
-                <li><a class="scroll-news-content__item" href="#">English</a></li>
-                <li><a class="scroll-news-content__item" href="#">Hindi</a></li>
-                <li><a class="scroll-news-content__item" href="#">Español</a></li>
-                <li><a class="scroll-news-content__item" href="#">عربي</a></li>
-                <li><a class="scroll-news-content__item" href="#">한국어</a></li>
-                <li><a class="scroll-news-content__item" href="#">中文</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-4">
-            <div class="page-header__top-searchBtn ">
-              <button class="search-icon"><i class="fas fa-search"></i></button>
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="bl-header__image-container">
+              <a href="#"> <img width="50%" src="/images/bl-header.gif" alt=""></a>
             </div>
           </div>
         </div>
       </div>
     </div>
-    
-    <div class="searchBar" >
-      <div class="container-fluid " style=" background-color: #ddd;padding:10px">
-        <form action="#" class="d-flex">
-          <input type="text" class="search-input" placeholder="यहाँ टाईप गर्नुहोस्...">
-          <button> <i class="fas fa-search"></i></button>
-        </form>
+
+    <!-- header -->
+    <header class="page-header">
+      <div class="page-header__top">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-8 d-flex p-sm-0">
+              <div class="scroll-header">
+                <h4>अन्य संस्करण</h4>
+              </div>
+
+              <div class="select-language">
+                <select name="language" id="">
+                  <option value="नेपाली">नेपाली</option>
+                  <option value="English">English</option>
+                  <option value="Hindi">Hindi</option>
+                  <option value="Español">Español</option>
+                  <option value="한국어">عربي</option>
+                  <option value="عربي">عربي</option>
+                </select>
+              </div>
+              <div class="scroll-news-content">
+                <ul class="">
+                  <li><a class="scroll-news-content__item" href="#">नेपाली</a></li>
+                  <li><a class="scroll-news-content__item" href="#">English</a></li>
+                  <li><a class="scroll-news-content__item" href="#">Hindi</a></li>
+                  <li><a class="scroll-news-content__item" href="#">Español</a></li>
+                  <li><a class="scroll-news-content__item" href="#">عربي</a></li>
+                  <li><a class="scroll-news-content__item" href="#">한국어</a></li>
+                  <li><a class="scroll-news-content__item" href="#">中文</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4">
+              <div class="page-header__top-searchBtn ">
+                <button class="search-icon"><i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="page-header__bottom">
+
+      <div class="searchBar">
+        <div class="container-fluid " style=" background-color: #ddd;padding:10px">
+          <form action="#" class="d-flex">
+            <input type="text" class="search-input" placeholder="यहाँ टाईप गर्नुहोस्...">
+            <button> <i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="page-header__bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand"><img width="40px" src="/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">ब्रेक</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">बिएल विशेष</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">बिएल विशेष</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ब्राण्ड स्टोरी</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">बिएल विशेष</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">राजनीति</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">खेल</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">विचार/विश्लेषण</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">अर्थ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">कला</a>
+                </li>
+
+              </ul>
+              <div class="socialLinks my-2 my-lg-0">
+                <ul class="d-flex social-list">
+                  <li>
+                    <a href="" class="social-link">
+                      <i class="fab fa-facebook-square"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-link">
+                      <i class="fab fa-twitter-square"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="social-link">
+                      <i class="fab fa-youtube-square"></i>
+                    </a>
+                  </li>
+                  <li class="unicode">
+                    <a href="" class="social-link">
+                      <i class="fab fas fa-keyboard"></i>&nbsp;
+                      युनिकोड
+                    </a>
+                  </li>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+
+    </header>
+
+    <!-- page-banner -->
+    <section class="page-banner">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand"><img width="40px" src="/images/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">ब्रेक</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">बिएल विशेष</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">बिएल विशेष</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">ब्राण्ड स्टोरी</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">बिएल विशेष</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">राजनीति</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">खेल</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">विचार/विश्लेषण</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">अर्थ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">कला</a>
-              </li>
-
-            </ul>
-            <div class="socialLinks my-2 my-lg-0">
-              <ul class="d-flex social-list">
-                <li>
-                  <a href="" class="social-link">
-                    <i class="fab fa-facebook-square"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" class="social-link">
-                    <i class="fab fa-twitter-square"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" class="social-link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="" class="social-link">
-                    <i class="fab fa-youtube-square"></i>
-                  </a>
-                </li>
-                <li class="unicode">
-                  <a href="" class="social-link">
-                    <i class="fab fas fa-keyboard"></i>&nbsp;
-                    युनिकोड
-                  </a>
-                </li>
-              </ul>
-
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="banner-image-container">
+              <img width="100%" src="/images/banner.gif" alt="">
             </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>
-   
-  </header>
-
-  <!-- page-banner -->
-  <section class="page-banner">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-12">
-          <div class="banner-image-container">
-            <img width="100%" src="/images/banner.gif" alt="">
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- page-body -->
-  <section class="page-body">
-    <div class="container-fluid">
-      <!-- section-1 -->
-      <div class="row">
-        <div class="col-sm-12 col-md-3 col-lg-3">
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="">लिंक</a>
-              </h2>
-            </div>
-            <div class="block-body">
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
+    <!-- page-body -->
+    <section class="page-body">
+      <div class="container-fluid">
+        <!-- section-1 -->
+        <div class="row">
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="news-block">
+              <div class="block-header">
+                <h2>
+                  <a href="">लिंक</a>
+                </h2>
               </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">जनमत कुल्चिएर पशुपतिको पाउमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">जनमत कुल्चिएर पशुपतिको पाउमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      रातोपाटी - काठमाडाै‌ं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      देशसञ्चार - काठमाडौँ</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-6">
-          <di class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="">एंकर</a>
-              </h2>
-            </div>
-            <div class="block-body">
-              <div class="news-item-t2 bd">
-
-                <figure class="news-image">
-                  <a href="#">
-                    <img src="/images/bl42.png" alt="">
-                  </a>
-                </figure>
-                <div class="news-content">
-                  <br>
-                  <div class="news-title">
-                    <h5><a href="#">अलबिदा बुवा!</a></h5>
-                  </div>
-                  <div class="news-author"> <a href="#">
-                      नागरिक दैनिक - काठमाडाैं
-                    </a></div>
-                  <div class="news-descripton">
-                    <p class="m-0">
-                      म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर मेरो बुवा
-                      गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                      म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर मेरो बुवा
-                      गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                      तर मेरो बुवा गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।तर मेरो बुवा गुणदोष दुवै भएको एउटा
-                      सामान्य .............
-                    </p>
-                  </div>
-                </div>
-
-              </div>
-              <div class="news-item bd">
-                 <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                 <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                 <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </div>
-        <div class="col-sm-12 col-md-3 col-lg-3">
-          <div class="news-block ">
-            <div class="block-header">
-              <h2>
-                <a href="">बिएल विशेष</a>
-              </h2>
-            </div>
-            <div class="block-body p-3 mt-2" style='background:#ffdfd0'>
-
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">जनमत कुल्चिएर पशुपतिको पाउमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      रातोपाटी - काठमाडाै‌ं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      देशसञ्चार - काठमाडौँ</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <div class="ads">
-              <a href="#"><img width="100%" src="https://breaknlinks.s3.amazonaws.com/nepali/bigyapan/HERO.jpg"
-                  alt=""></a>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- section-2 -->
-      <div class="row">
-        <div class="col-sm-12 col-md-9 col-lg-9">
-          <!-- ब्राण्ड स्टोरी -->
-          <div class="row mb-4">
-            <div class="col-sm-12">
-              <div class="news-block">
-                <div class="block-header">
-                  <h2>
-                    <a href="">ब्राण्ड स्टोरी</a>
-                  </h2>
-                </div>
-                <div class="block-body">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#"></a></h5>
-                          </div>
-                          <div class="news-author"> <a href="#">
-                              नागरिक दैनिक - काठमाडाैं
-                            </a></div>
-                          <div class="news-descripton">
-                            <p class="m-0">
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-
-                            </p>
-                          </div>
-                        </div>
-
-                      </div>
-
+              <div class="block-body">
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
                     </div>
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                    
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">जनमत कुल्चिएर पशुपतिको पाउमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">जनमत कुल्चिएर पशुपतिको पाउमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        रातोपाटी - काठमाडाै‌ं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        देशसञ्चार - काठमाडौँ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6">
+            <di class="news-block">
+              <div class="block-header">
+                <h2>
+                  <a href="">एंकर</a>
+                </h2>
+              </div>
+              <div class="block-body">
+                <div class="news-item-t2 bd">
+
+                  <figure class="news-image">
+                    <a href="#">
+                      <img src="/images/bl42.png" alt="">
+                    </a>
+                  </figure>
+                  <div class="news-content">
+                    <br>
+                    <div class="news-title">
+                      <h5><a href="#">अलबिदा बुवा!</a></h5>
+                    </div>
+                    <div class="news-author"> <a href="#">
+                        नागरिक दैनिक - काठमाडाैं
+                      </a></div>
+                    <div class="news-descripton">
+                      <p class="m-0">
+                        म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर मेरो बुवा
+                        गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+                        म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर मेरो बुवा
+                        गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+                        तर मेरो बुवा गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।तर मेरो बुवा गुणदोष दुवै भएको
+                        एउटा
+                        सामान्य .............
+                      </p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="news-block ">
+              <div class="block-header">
+                <h2>
+                  <a href="">बिएल विशेष</a>
+                </h2>
+              </div>
+              <div class="block-body p-3 mt-2" style='background:#ffdfd0'>
+
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">जनमत कुल्चिएर पशुपतिको पाउमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        रातोपाटी - काठमाडाै‌ं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        देशसञ्चार - काठमाडौँ</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nayapatrika.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">प्रधानमन्त्रीको ‘स्तरहीन’ भाषा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
+              <div class="ads">
+                <a href="#"><img width="100%" src="https://breaknlinks.s3.amazonaws.com/nepali/bigyapan/HERO.jpg"
+                    alt=""></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- section-2 -->
+        <div class="row">
+          <div class="col-sm-12 col-md-9 col-lg-9">
+            <!-- ब्राण्ड स्टोरी -->
+            <div class="row mb-4">
+              <div class="col-sm-12">
+                <div class="news-block">
+                  <div class="block-header">
+                    <h2>
+                      <a href="">ब्राण्ड स्टोरी</a>
+                    </h2>
+                  </div>
+                  <div class="block-body">
                     <div class="row">
                       <div class="col-sm-12 col-md-6 col-lg-6">
                         <div class="news-item-t2">
-                          <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Falgun/BRAND%20STORY/BS.jpg" alt=""></figure>
+                          <figure class="news-image">
+                            <a href="#">
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
+                            </a>
+                          </figure>
                           <div class="news-content">
-                            <div class="news-title mt-3">
+                            <br>
+                            <div class="news-title">
+                              <h5><a href="#"></a></h5>
+                            </div>
+                            <div class="news-author"> <a href="#">
+                                नागरिक दैनिक - काठमाडाैं
+                              </a></div>
+                            <div class="news-descripton">
+                              <p class="m-0">
+                                म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
+                                मेरो बुवा
+                                गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+                                म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
+                                मेरो बुवा
+                                गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-md-6 col-lg-6">
+
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="news-item-t2">
+                              <figure class="news-image"><img
+                                  src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Falgun/BRAND%20STORY/BS.jpg"
+                                  alt=""></figure>
+                              <div class="news-content">
+                                <div class="news-title mt-3">
+                                  <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                                </div>
+                                <div class="news-author"><a href="#">
+                                    नागरिक दैनिक - काठमाडाैं</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="news-item-t2">
+                              <figure class="news-image"><img
+                                  src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Falgun/BRAND%20STORY/BS.jpg"
+                                  alt=""></figure>
+                              <div class="news-content">
+                                <div class="news-title mt-3">
+                                  <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                                </div>
+                                <div class="news-author"><a href="#">
+                                    नागरिक दैनिक - काठमाडाैं</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="news-item-t2">
+                              <figure class="news-image"><img
+                                  src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Baishakh/brandstory/nikesh.jpg"
+                                  alt=""></figure>
+                              <div class="news-content">
+                                <div class="news-title mt-3">
+                                  <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                                </div>
+                                <div class="news-author"><a href="#">
+                                    नागरिक दैनिक - काठमाडाैं</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-12 col-md-6 col-lg-6">
+                            <div class="news-item-t2">
+                              <figure class="news-image"><img
+                                  src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Falgun/BRAND%20STORY/Sudeep.JPG"
+                                  alt=""></figure>
+                              <div class="news-content">
+                                <div class="news-title mt-3">
+                                  <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                                </div>
+                                <div class="news-author"><a href="#">
+                                    नागरिक दैनिक - काठमाडाैं</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="block-footer">
+                    <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- भिडियो रिपोर्ट -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="news-block">
+                  <div class="block-header">
+                    <h2>
+                      <a href="">भिडियो रिपोर्ट</a>
+                    </h2>
+                  </div>
+                  <div class="block-body">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-3 col-lg-3">
+
+                        <div class="news-item-t2">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
+                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                            </div>
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="news-item-t2">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
                               <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
                             </div>
                             <div class="news-author"><a href="#">
@@ -494,11 +605,34 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="col-sm-12 col-md-3 col-lg-3">
                         <div class="news-item-t2">
-                          <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Falgun/BRAND%20STORY/BS.jpg" alt=""></figure>
-                          <div class="news-content">
-                            <div class="news-title mt-3">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
+                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                            </div>
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="news-item-t2">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
                               <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
                             </div>
                             <div class="news-author"><a href="#">
@@ -509,11 +643,35 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="col-sm-12 col-md-3 col-lg-3">
                         <div class="news-item-t2">
-                          <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Baishakh/brandstory/nikesh.jpg" alt=""></figure>
-                          <div class="news-content">
-                            <div class="news-title mt-3">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
+                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                            </div>
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="news-item-t2">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
                               <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
                             </div>
                             <div class="news-author"><a href="#">
@@ -522,11 +680,16 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-12 col-md-6 col-lg-6">
+                      <div class="col-sm-12 col-md-3 col-lg-3">
                         <div class="news-item-t2">
-                          <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/Falgun/BRAND%20STORY/Sudeep.JPG" alt=""></figure>
-                          <div class="news-content">
-                            <div class="news-title mt-3">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
                               <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
                             </div>
                             <div class="news-author"><a href="#">
@@ -535,835 +698,639 @@
                           </div>
                         </div>
                       </div>
-                    </div>
-                    </div>
-               
-                  </div>
-                  
-                </div>
-                <div class="block-footer">
-                  <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- भिडियो रिपोर्ट -->
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="news-block">
-                <div class="block-header">
-                  <h2>
-                    <a href="">भिडियो रिपोर्ट</a>
-                  </h2>
-                </div>
-                <div class="block-body">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                   
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
+                      <div class="col-sm-12 col-md-3 col-lg-3">
+                        <div class="news-item-t2">
+                          <figure class="news-image vdo">
+                            <a href="#">
+                              <i class="far fa-play-circle"></i>
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg"
+                                alt="">
+                            </a></figure>
+                          <div class="news-content pt-3">
+                            <div class="news-title">
+                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                            </div>
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image vdo">
-                          <a href="#">
-                            <i class="far fa-play-circle"></i>
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/nekapa/baluwatar1.jpg" alt="">
-                          </a></figure>
-                        <div class="news-content pt-3">
-                          <div class="news-title">
-                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                          </div>
-                          <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
 
+                    </div>
+                  </div>
+                  <div class="block-footer">
+                    <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
                   </div>
                 </div>
-                <div class="block-footer">
-                  <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-                </div>
+
               </div>
-           
-            </div>
-            <div class="ads">
-              <a href="#">
-                <img width="100%" src="https://breaknlinks-nepali.s3.amazonaws.com/bl-advertisments/GIF-74143fbec55b3a9272bd233926a8075c.gif?fbclid=IwAR3ZQT8SK0UJwYdV-nt9OPR8fYBUARka2zLO9f8eFowPzVUkDfpzZCkCSiQ" alt="">
-              </a>
+              <div class="ads">
+                <a href="#">
+                  <img width="100%"
+                    src="https://breaknlinks-nepali.s3.amazonaws.com/bl-advertisments/GIF-74143fbec55b3a9272bd233926a8075c.gif?fbclid=IwAR3ZQT8SK0UJwYdV-nt9OPR8fYBUARka2zLO9f8eFowPzVUkDfpzZCkCSiQ"
+                    alt="">
+                </a>
+              </div>
             </div>
           </div>
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="news-block">
+              <div class="block-header">
+                <h2>
+                  <a href="">ब्रेक</a>
+                </h2>
+              </div>
+              <div class="block-body">
+                <div class="news-item-t2">
+
+                  <figure class="news-image">
+                    <a href="#">
+                      <img src="/images/bl42.png" alt="">
+                    </a>
+                  </figure>
+                  <div class="news-content">
+                    <br>
+                    <div class="news-title mt-3">
+                      <h5><a href="#">अलबिदा बुवा!</a></h5>
+                    </div>
+                    <div class="news-author"> <a href="#">
+                        नागरिक दैनिक - काठमाडाैं
+                      </a></div>
+                    <div class="news-descripton">
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title mt-3">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title mt-3">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title mt-3">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            <div class="news-block">
+              <div class="block-header">
+                <h2>
+                  <a href="">अन्तर्वार्ता</a>
+                </h2>
+              </div>
+              <div class="block-body">
+                <div class="news-item-t2">
+
+                  <figure class="news-image">
+                    <a href="#">
+                      <img src="/images/bl42.png" alt="">
+                    </a>
+                  </figure>
+                  <div class="news-content">
+                    <br>
+                    <div class="news-title">
+                      <h5><a href="#">अलबिदा बुवा!</a></h5>
+                    </div>
+                    <div class="news-author"> <a href="#">
+                        नागरिक दैनिक - काठमाडाैं
+                      </a></div>
+                    <div class="news-descripton">
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <div class="col-sm-12 col-md-3 col-lg-3">
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="">ब्रेक</a>
-              </h2>
+
+        <!-- section-3 -->
+        <div class="row">
+          <div class="col-sm-12 col-md-9 col-lg-9">
+            <!-- समाचार-->
+            <div class="row mb-4">
+              <div class="col-sm-12">
+                <div class="news-block">
+                  <div class="block-header">
+                    <h2>
+                      <a href="">समाचार</a>
+                    </h2>
+                  </div>
+                  <div class="block-body">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="news-item-t2">
+                          <figure class="news-image" style="position:relative">
+                            <a href="#">
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
+                            </a>
+                            <div class="image-mask"></div>
+                            <div class="play-button">
+                              <i class="fas fa-play"></i>
+                            </div>
+                          </figure>
+                          <div class="live_bar">
+                            <a href="#" class=" btn_live"><span class="live-icon"></span>Live</a>
+                          </div>
+                          <div class="news-content">
+                              <div class="news-title">
+                              <h5><a href="#"> नागरिक दैनिक - काठमाडाैं</a></h5>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="news-item-t2">
+                          <figure class="news-image" style="position:relative">
+                            <a href="#">
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
+                            </a>
+                            <div class="image-mask"></div>
+                            <div class="play-button">
+                              <i class="fas fa-play"></i>
+                            </div>
+                          </figure>
+                     
+                          <div class="live_bar">
+                            <a href="#" class=" btn_live"><span class="live-icon"></span>Live</a>
+                          </div>
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#"> नागरिक दैनिक - काठमाडाैं</a></h5>
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-md-4 col-lg-4">
+                        <div class="news-item-t2">
+                          <figure class="news-image" style="position: relative;">
+                            <a href="#">
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
+                            </a>
+                            <div class="image-mask"></div>
+                            <div class="play-button">
+                              <i class="fas fa-play"></i>
+                            </div>
+                          </figure>
+                        <div class="live_bar">
+                          <a href="#" class=" btn_live"><span class="live-icon"></span>Live</a>
+                        </div>
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#"> नागरिक दैनिक - काठमाडाैं</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="block-footer">
+                    <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="block-body">
-              <div class="news-item-t2">
+            <!-- अर्थ //-->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="news-block">
+                  <div class="block-header">
+                    <h2>
+                      <a href="">अर्थ</a>
+                    </h2>
+                  </div>
+                  <div class="block-body">
+                    <div class="row">
+                      <div class="col-sm-12 col-md-7 col-lg-7">
+                        <div class="news-item bd">
+                          <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-title mt-3">
+                              <h5><a href="#">दूरसञ्चार सेवाको गुणस्तर परीक्षण गर्दै प्राधिकरण</a></h5>
+                            </div>
+                            <!-- <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div> -->
+                          </div>
+                        </div>
 
-                <figure class="news-image">
-                  <a href="#">
-                    <img src="/images/bl42.png" alt="">
-                  </a>
-                </figure>
-                <div class="news-content">
-                  <br>
-                  <div class="news-title mt-3">
-                    <h5><a href="#">अलबिदा बुवा!</a></h5>
-                  </div>
-                  <div class="news-author"> <a href="#">
-                      नागरिक दैनिक - काठमाडाैं
-                    </a></div>
-                  <div class="news-descripton">
+                        <div class="news-item bd">
+                          <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-title mt-3">
+                              <h5><a href="#">यी ५९ एप अव भारतमा खुल्दैनन्</a></h5>
+                            </div>
+                            <!-- <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="news-item bd">
+                          <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-title mt-3">
+                              <h5><a href="#">दूरसञ्चार सेवाको गुणस्तर परीक्षण गर्दै प्राधिकरण</a></h5>
+                            </div>
+                            <!-- <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div> -->
+                          </div>
+                        </div>
+                        <div class="news-item bd">
+                          <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-title mt-3">
+                              <h5><a href="#">
+                                  चार सयले बढ्यो सुनको मूल्य </a></h5>
+                            </div>
+                            <!-- <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div> -->
+                          </div>
+                        </div>
+
+                      </div>
+                      <div class="col-sm-12 col-md-5 col-lg-5">
+                        <div class="news-item-t2">
+                          <figure class="news-image">
+                            <a href="#">
+                              <img src="https://breaknlinks.s3.amazonaws.com/nepali/social/nepal-stock.jpg" alt="">
+                            </a>
+                          </figure>
+                          <div class="news-content">
+                            <br>
+                            <div class="news-title">
+                              <h5><a href="#">नेप्से करेक्सनतर्फ, १७.७९ अङ्कले घट्यो</a></h5>
+                            </div>
+                            <div class="news-author"> <a href="#">
+                                नागरिक दैनिक - काठमाडाैं
+                              </a></div>
+                            <div class="news-descripton">
+                              <p class="m-0">
+                                म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
+                                मेरो बुवा
+                                गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+                                तर
+                                मेरो बुवा
+                                गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+
+                              </p>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
 
                   </div>
+                  <div class="block-footer">
+                    <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+                  </div>
                 </div>
 
               </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title mt-3">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title mt-3">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title mt-3">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+
             </div>
           </div>
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="">अन्तर्वार्ता</a>
-              </h2>
-            </div>
-            <div class="block-body">
-              <div class="news-item-t2">
+          <div class="col-sm-12 col-md-3 col-lg-3">
+            <div class="news-block">
+              <div class="block-header mb-3">
+                <h2>
+                  <a href="">ट्रेन्डिङ</a>
+                </h2>
+              </div>
+              <div class="block-body" style="background-color: #ffdfd0; padding:10px">
 
-                <figure class="news-image">
-                  <a href="#">
-                    <img src="/images/bl42.png" alt="">
-                  </a>
-                </figure>
-                <div class="news-content">
-                  <br>
-                  <div class="news-title">
-                    <h5><a href="#">अलबिदा बुवा!</a></h5>
-                  </div>
-                  <div class="news-author"> <a href="#">
-                      नागरिक दैनिक - काठमाडाैं
-                    </a></div>
-                  <div class="news-descripton">
-
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
                   </div>
                 </div>
-
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+            <div class="news-block">
+              <div class="block-header">
+                <h2>
+                  <a href="">विचार/विश्लेषण</a>
+                </h2>
+              </div>
+              <div class="block-body">
+
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="news-item bd">
+                  <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
+                  <div class="news-content">
+                    <div class="news-title">
+                      <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                    </div>
+                    <div class="news-author"><a href="#">
+                        नागरिक दैनिक - काठमाडाैं</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
+              <div class="ads">
+                <a href="#">
+                  <img width="100%"
+                    src="https://breaknlinks-nepali.s3.amazonaws.com/bl-advertisments/GIF-74143fbec55b3a9272bd233926a8075c.gif?fbclid=IwAR3ZQT8SK0UJwYdV-nt9OPR8fYBUARka2zLO9f8eFowPzVUkDfpzZCkCSiQ"
+                    alt="">
+                </a>
+              </div>
             </div>
           </div>
+
         </div>
-        
-      </div>
 
-      <!-- section-3 -->
-      <div class="row">
-        <div class="col-sm-12 col-md-9 col-lg-9">
-          <!-- समाचार-->
-          <div class="row mb-4">
-            <div class="col-sm-12">
-              <div class="news-block">
-                <div class="block-header">
-                  <h2>
-                    <a href="">समाचार</a>
-                  </h2>
-                </div>
-                <div class="block-body">
-                  <div class="row">
-                     <div class="col-sm-12 col-md-4 col-lg-4">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#"></a></h5>
-                          </div>
-                          <div class="news-author"> <a href="#">
-                              नागरिक दैनिक - काठमाडाैं
-                            </a></div>
-                          <div class="news-descripton">
-                            <p class="m-0">
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-
-                            </p>
-                          </div>
+        <!-- section-4 -->
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="news-block">
+              <div class="block-header">
+                <h2><a href="#"></a>कला</h2>
+              </div>
+              <div class="block-body">
+                <div class="row">
+                  <div class="col-sm-12 col-md-4">
+                    <div class="news-item-t2" style="position: relative;">
+                      <figure class="news-image">
+                        <a href="#">
+                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
+                        </a>
+                      </figure>
+                      <div class="news-content content-overlay">
+                        <br>
+                        <div class="news-title">
+                          <h5><a class="kl-h-text" href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा| अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
                         </div>
 
                       </div>
 
                     </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#"></a></h5>
-                          </div>
-                          <div class="news-author"> <a href="#">
-                              नागरिक दैनिक - काठमाडाैं
-                            </a></div>
-                          <div class="news-descripton">
-                            <p class="m-0">
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-
-                            </p>
+                    <ul>
+                      <li class="news-list">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a  href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
                           </div>
                         </div>
+                      </li>
 
-                      </div>
-
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/news/Karna%2520shakya.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#"></a></h5>
-                          </div>
-                          <div class="news-author"> <a href="#">
-                              नागरिक दैनिक - काठमाडाैं
-                            </a></div>
-                          <div class="news-descripton">
-                            <p class="m-0">
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-
-                            </p>
-                          </div>
-                        </div>
-
-                      </div>
-
-                    </div>
-               
-                  </div>
-                  
-                </div>
-                <div class="block-footer">
-                  <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- अर्थ //-->
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="news-block">
-                <div class="block-header">
-                  <h2>
-                    <a href="">अर्थ</a>
-                  </h2>
-                </div>
-                <div class="block-body">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-7 col-lg-7">
-                      <div class="news-item bd">
-                        <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                        <div class="news-content">
-                          <div class="news-title mt-3">
-                            <h5><a href="#">दूरसञ्चार सेवाको गुणस्तर परीक्षण गर्दै प्राधिकरण</a></h5>
-                          </div>
-                          <!-- <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div> -->
-                        </div>
-                      </div>
-                      
-                      <div class="news-item bd">
-                        <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                        <div class="news-content">
-                          <div class="news-title mt-3">
-                            <h5><a href="#">यी ५९ एप अव भारतमा खुल्दैनन्</a></h5>
-                          </div>
-                          <!-- <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div> -->
-                        </div>
-                      </div>
-                      <div class="news-item bd">
-                        <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                        <div class="news-content">
-                          <div class="news-title mt-3">
-                            <h5><a href="#">दूरसञ्चार सेवाको गुणस्तर परीक्षण गर्दै प्राधिकरण</a></h5>
-                          </div>
-                          <!-- <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div> -->
-                        </div>
-                      </div>
-                      <div class="news-item bd">
-                        <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                        <div class="news-content">
-                          <div class="news-title mt-3">
-                            <h5><a href="#">
-                              चार सयले बढ्यो सुनको मूल्य  </a></h5>
-                          </div>
-                          <!-- <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div> -->
-                        </div>
-                      </div>
-                      
-                    </div>
-                    <div class="col-sm-12 col-md-5 col-lg-5">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/social/nepal-stock.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">नेप्से करेक्सनतर्फ, १७.७९ अङ्कले घट्यो</a></h5>
-                          </div>
-                          <div class="news-author"> <a href="#">
-                              नागरिक दैनिक - काठमाडाैं
-                            </a></div>
-                          <div class="news-descripton">
-                            <p class="m-0">
-                              म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                        तर
-                              मेरो बुवा
-                              गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-
-                            </p>
-                          </div>
-                        </div>
-
-                      </div>
-                    </div>
-                   
-                  </div>
-                
-                </div>
-                <div class="block-footer">
-                  <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-                </div>
-              </div>
-           
-            </div>
-         
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-3 col-lg-3">
-          <div class="news-block" >
-            <div class="block-header mb-3">
-              <h2>
-                <a href="">ट्रेन्डिङ</a>
-              </h2>
-            </div>
-            <div class="block-body" style="background-color: #ffdfd0; padding:10px">
-              
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="">विचार/विश्लेषण</a>
-              </h2>
-            </div>
-            <div class="block-body">
-            
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>
-            <div class="ads">
-              <a href="#">
-                <img width="100%" src="https://breaknlinks-nepali.s3.amazonaws.com/bl-advertisments/GIF-74143fbec55b3a9272bd233926a8075c.gif?fbclid=IwAR3ZQT8SK0UJwYdV-nt9OPR8fYBUARka2zLO9f8eFowPzVUkDfpzZCkCSiQ" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-
-      <!-- section-4 -->
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="news-block">
-            <div class="block-header">
-              <h2><a href="#"></a>कला</h2>
-            </div>
-            <div class="block-body">
-              <div class="row">
-                <div class="col-sm-12 col-md-4">
-                  <div class="news-item-t2">
-                    <figure class="news-image">
-                      <a href="#">
-                        <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                      </a>
-                    </figure>
-                    <div class="news-content">
                       <br>
-                      <div class="news-title">
-                        <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                      </div>
-                      <!-- <div class="news-author"> <a href="#">
-                        
-                        </a></div> -->
-                      <div class="news-descripton">
-                        <p class="m-0">
-                          म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                          मेरो बुवा
-                          गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-                          म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                          मेरो बुवा
-                          गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-
-                        </p>
+                      <li class="news-list evn" >
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <br>
+                      <li class="news-list">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-12 col-md-4">
+                    <div class="news-item-t2" style="position: relative;">
+                      <figure class="news-image">
+                        <a href="#">
+                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
+                        </a>
+                      </figure>
+                      <div class="news-content content-overlay">
+                        <br>
+                        <div class="news-title">
+                          <h5><a class="kl-h-text" href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                        </div>
                       </div>
                     </div>
+                    <ul>
+                      <li class="news-list">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा| अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                      <br>
+                      <li class="news-list evn">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा| अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      <br>
+                      <li class="news-list">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+
+                    </ul>
 
                   </div>
-                </div>
+                  <div class="col-sm-12 col-md-4">
+                    <div class="news-item-t2" style="position: relative;">
+                      <figure class="news-image">
+                        <a href="#">
+                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
+                        </a>
+                      </figure>
+                      <div class="news-content content-overlay">
+                        <br>
+                        <div class="news-title">
+                          <h5><a class="kl-h-text" href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                        </div>
+                      </div>
+                    </div>
+                    <ul>
+                      <li class="news-list">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
 
-                <div class="col-sm-12 col-md-8 col-lg-8">
-                  <div class="row">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                      <br>
+                      <li class="news-list evn" >
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
                           </div>
-                        
                         </div>
-    
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                      </li>
+                      <br>
+                      <li class="news-list">
+                        <div class="news-item">
+                          <div class="news-content">
+                            <div class="news-title">
+                              <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
+                            </div>
                           </div>
-                        
                         </div>
-    
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                          </div>
-                        
-                        </div>
-    
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                          </div>
-                        
-                        </div>
-    
-                      </div>
-                    </div>
+                      </li>
+
+                    </ul>
                   </div>
-                  <div class="row">
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                          </div>
-                        
-                        </div>
-    
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                          </div>
-                        
-                        </div>
-    
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                          </div>
-                        
-                        </div>
-    
-                      </div>
-                    </div>
-                    <div class="col-sm-12 col-md-3 col-lg-3">
-                      <div class="news-item-t2">
-                        <figure class="news-image">
-                          <a href="#">
-                            <img src="https://breaknlinks.s3.amazonaws.com/nepali/Kala/AP_20069712675039.jpg" alt="">
-                          </a>
-                        </figure>
-                        <div class="news-content">
-                          <br>
-                          <div class="news-title">
-                            <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
-                          </div>
-                        
-                        </div>
-    
-                      </div>
-                    </div>
-                  </div>
+
                 </div>
               </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
         <!-- section-5 -->
         <div class="row">
           <div class="col-sm-12">
@@ -1425,8 +1392,8 @@
                       </div>
                     </div>
                   </div>
-  
-                 
+
+
                 </div>
               </div>
               <div class="block-footer">
@@ -1448,7 +1415,8 @@
                     <div class="news-item-t2">
                       <figure class="news-image">
                         <a href="#">
-                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/sport/football/EsnMIK2XMAAA75o.jfif" alt="">
+                          <img src="https://breaknlinks.s3.amazonaws.com/nepali/sport/football/EsnMIK2XMAAA75o.jfif"
+                            alt="">
                         </a>
                       </figure>
                       <div class="news-content">
@@ -1457,7 +1425,7 @@
                           <h5><a href="#">टोटनह्याम एफए कपको पाँचौँ चरणमा</a></h5>
                         </div>
                         <div class="news-author"> <a href="#">
-                          बिएल संवाददाता - काठमाडाैं
+                            बिएल संवाददाता - काठमाडाैं
                           </a></div>
                         <div class="news-descripton">
                           <p class="m-0">
@@ -1467,14 +1435,14 @@
                             म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
                             मेरो बुवा
                             गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
-  
+
                           </p>
                         </div>
                       </div>
-  
+
                     </div>
                   </div>
-  
+
                   <div class="col-sm-12 col-md-8 col-lg-8">
                     <div class="row">
                       <div class="col-sm-12 col-md-3 col-lg-3">
@@ -1489,9 +1457,9 @@
                             <div class="news-title">
                               <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
                             </div>
-                          
+
                           </div>
-      
+
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-3 col-lg-3">
@@ -1506,9 +1474,9 @@
                             <div class="news-title">
                               <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
                             </div>
-                          
+
                           </div>
-      
+
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-3 col-lg-3">
@@ -1523,9 +1491,9 @@
                             <div class="news-title">
                               <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
                             </div>
-                          
+
                           </div>
-      
+
                         </div>
                       </div>
                       <div class="col-sm-12 col-md-3 col-lg-3">
@@ -1540,9 +1508,9 @@
                             <div class="news-title">
                               <h5><a href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा नाइटलीकाे घाेषणा</a></h5>
                             </div>
-                          
+
                           </div>
-      
+
                         </div>
                       </div>
                     </div>
@@ -1586,7 +1554,7 @@
                           </div>
                         </div>
                       </div>
-                   
+
                     </div>
                     <div class="row">
                       <div class="col-sm-12 col-md-4 col-lg-4">
@@ -1628,7 +1596,7 @@
                           </div>
                         </div>
                       </div>
-                   
+
                     </div>
                   </div>
                 </div>
@@ -1647,7 +1615,8 @@
                 <h2><a href="#"></a>फोटो फिचर</h2>
               </div>
               <div class="block-body">
-                <div id="myCarousel" class="carousel slide w-100" data-ride="carousel" data-interval="3000">
+                <div id="myCarousel" class="carousel slide w-100 photoCarousel" data-ride="carousel"
+                  data-interval="3000">
                   <div class="carousel-inner w-100" role="listbox">
                     <div class="carousel-item active">
                       <div class="col-lg-3 col-md-6">
@@ -1657,66 +1626,66 @@
                               alt=""></figure>
                           <div class="news-content">
                             <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                            <!-- <div class="news-title ">
-                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                            </div> -->
-                      
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                        <div class="news-item-t2">
-                          <figure class="news-image"><img
-                              src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg"
-                              alt=""></figure>
-                          <div class="news-content">
-                            <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                            <!-- <div class="news-title ">
-                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                            </div> -->
-                         
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                        <div class="news-item-t2">
-                          <figure class="news-image"><img
-                              src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg"
-                              alt=""></figure>
-                          <div class="news-content">
-                            <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                            <!-- <div class="news-title ">
-                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                            </div> -->
-                          
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="carousel-item">
-                      <div class="col-lg-3 col-md-6">
-                        <div class="news-item-t2">
-                          <figure class="news-image"><img
-                              src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg"
-                              alt=""></figure>
-                          <div class="news-content">
-                            <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
-                            <!-- <div class="news-title ">
-                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                                नागरिक दैनिक - काठमाडाैं</a>
                             </div>
-                          -->
+                            <!-- <div class="news-title ">
+                                <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                              </div> -->
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-lg-3 col-md-6">
+                        <div class="news-item-t2">
+                          <figure class="news-image"><img
+                              src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg"
+                              alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
+                            <!-- <div class="news-title ">
+                                <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                              </div> -->
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-lg-3 col-md-6">
+                        <div class="news-item-t2">
+                          <figure class="news-image"><img
+                              src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg"
+                              alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
+                            <!-- <div class="news-title ">
+                                <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                              </div> -->
+
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="col-lg-3 col-md-6">
+                        <div class="news-item-t2">
+                          <figure class="news-image"><img
+                              src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg"
+                              alt=""></figure>
+                          <div class="news-content">
+                            <div class="news-author"><a href="#">
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
+                            <!-- <div class="news-title ">
+                                <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                              </div>
+                            -->
                           </div>
                         </div>
                       </div>
@@ -1729,17 +1698,17 @@
                               alt=""></figure>
                           <div class="news-content">
                             <div class="news-author"><a href="#">
-                              नागरिक दैनिक - काठमाडाैं</a>
-                          </div>
+                                नागरिक दैनिक - काठमाडाैं</a>
+                            </div>
                             <!-- <div class="news-title ">
-                              <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                            </div> -->
-                        
+                                <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                              </div> -->
+
                           </div>
                         </div>
                       </div>
                     </div>
-                
+
                   </div>
                   <a class="carousel-control-prev bg-dark w-auto" href="#myCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -1752,428 +1721,448 @@
                 </div>
               </div>
               <!-- <div class="block-body">
-                <div class="row">
-                  <div class="col-sm-12 col-md-3">
-                    <div class="news-item-t2 ">
-                      <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg" alt=""></figure>
-                      <div class="news-content">
-                        <div class="news-title mt-2">
-                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                        </div>
-                        <div class="news-author"><a href="#">
-                            नागरिक दैनिक - काठमाडाैं</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-3">
-                    <div class="news-item-t2 ">
-                      <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg" alt=""></figure>
-                      <div class="news-content">
-                        <div class="news-title mt-2">
-                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                        </div>
-                        <div class="news-author"><a href="#">
-                            नागरिक दैनिक - काठमाडाैं</a>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-3">
+                      <div class="news-item-t2 ">
+                        <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg" alt=""></figure>
+                        <div class="news-content">
+                          <div class="news-title mt-2">
+                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                          </div>
+                          <div class="news-author"><a href="#">
+                              नागरिक दैनिक - काठमाडाैं</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-sm-12 col-md-3">
-                    <div class="news-item-t2 ">
-                      <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg" alt=""></figure>
-                      <div class="news-content">
-                        <div class="news-title mt-3">
-                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                        </div>
-                        <div class="news-author"><a href="#">
-                            नागरिक दैनिक - काठमाडाैं</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-12 col-md-3">
-                    <div class="news-item-t2 ">
-                      <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/fotofichar/kulekhani/Sequence 04.06_52_20_24.Still098.jpg" alt=""></figure>
-                      <div class="news-content">
-                        <div class="news-title mt-3">
-                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                        </div>
-                        <div class="news-author"><a href="#">
-                            नागरिक दैनिक - काठमाडाैं</a>
+                    <div class="col-sm-12 col-md-3">
+                      <div class="news-item-t2 ">
+                        <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg" alt=""></figure>
+                        <div class="news-content">
+                          <div class="news-title mt-2">
+                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                          </div>
+                          <div class="news-author"><a href="#">
+                              नागरिक दैनिक - काठमाडाैं</a>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    <div class="col-sm-12 col-md-3">
+                      <div class="news-item-t2 ">
+                        <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/poltical/police/NewFolder/Sequence 04.10_28_32_04.Still138.jpg" alt=""></figure>
+                        <div class="news-content">
+                          <div class="news-title mt-3">
+                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                          </div>
+                          <div class="news-author"><a href="#">
+                              नागरिक दैनिक - काठमाडाैं</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                      <div class="news-item-t2 ">
+                        <figure class="news-image"><img src="https://breaknlinks.s3.amazonaws.com/nepali/fotofichar/kulekhani/Sequence 04.06_52_20_24.Still098.jpg" alt=""></figure>
+                        <div class="news-content">
+                          <div class="news-title mt-3">
+                            <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                          </div>
+                          <div class="news-author"><a href="#">
+                              नागरिक दैनिक - काठमाडाैं</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+    
+                  
                   </div>
-  
-                 
-                </div>
-              </div> -->
+                </div> -->
               <div class="block-footer">
                 <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
               </div>
             </div>
           </div>
         </div>
+      </div>
       <!-- section-8 -->
-      <div class="row">
-        <div class="col-sm-12 col-md-9 col-lg-9">
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="">जीवनशैली</a>
-              </h2>
-            </div>
-            <div class="block-body">
-              <div class="row">
-                <div class="col-sm-12 col-md-7 col-lg-7">
-                  <div class="news-item bd">
-                    <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">दूरसञ्चार सेवाको गुणस्तर परीक्षण गर्दै प्राधिकरण</a></h5>
-                      </div>
-                      <!-- <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div> -->
-                    </div>
-                  </div>
-                  
-                  <div class="news-item bd">
-                    <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">यी ५९ एप अव भारतमा खुल्दैनन्</a></h5>
-                      </div>
-                      <!-- <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div> -->
-                    </div>
-                  </div>
-                  <div class="news-item bd">
-                    <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">दूरसञ्चार सेवाको गुणस्तर परीक्षण गर्दै प्राधिकरण</a></h5>
-                      </div>
-                      <!-- <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div> -->
-                    </div>
-                  </div>
-                  <div class="news-item bd">
-                    <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">
-                          चार सयले बढ्यो सुनको मूल्य  </a></h5>
-                      </div>
-                      <!-- <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div> -->
-                    </div>
-                  </div>
-                  
+      <section class="lifestyle" style="background:#0D0C0F">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <div class="news-block">
+                <div class="block-header">
+                  <h2>
+                    <a href="">जीवनशैली</a>
+                  </h2>
                 </div>
-                <div class="col-sm-12 col-md-5 col-lg-5">
-                  <div class="news-item-t2">
-                    <figure class="news-image">
-                      <a href="#">
-                        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/gray/FVYN3SW6F5FBHOQNSAPYCK2CPI.jpeg" alt="">
-                      </a>
-                    </figure>
-                    <div class="news-content">
-                      <br>
-                      <div class="news-title">
-                        <h5><a href="#">नेप्से करेक्सनतर्फ, १७.७९ अङ्कले घट्यो</a></h5>
-                      </div>
-                      <div class="news-author"> <a href="#">
-                          नागरिक दैनिक - काठमाडाैं
-                        </a></div>
-                      <div class="news-descripton">
-                        <p class="m-0">
-                          म्रो समाजमा कुनै मान्छे मर्ने बितिकै उसलाई राम्रो र असल भनेर देवत्वकरण गर्ने चलन छ। तर
-                          मेरो बुवा
-                         
-                    तर
-                          मेरो बुवा
-                          गुणदोष दुवै भएको एउटा सामान्य मान्छे हुनुहुन्थ्यो।
+                <div class="block-body">
+                  <div class="slider-2">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img class="d-block "
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="First slide">
+                          <div class="carousel-caption">
+                            <p class="text-left" tyle="font-size:26px ;max-width:500px">बिएल संवाददाता - काठमाडाैं</p>
+                            <p class="text-left" style="font-size:26px ;max-width:500px">
+                              वायुमण्डलमा आद्रता बढेपछि धुँलो र धुँवासहित काठमाडौँमा हिड्दै एक युवा। उपत्यकासहितको
+                              वायुको गुणस्तर मानव स्वास्थ्यका लागि खतरा देखिएपछि सतर्कता अपनाउन आग्रह गरेको छ। तस्बिर-
+                              सुलभ श्रेष्ठ/देश सञ्‍चार</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block "
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="Second slide">
+                          <div class="carousel-caption">
+                            <p class="text-left" tyle="font-size:26px ;max-width:500px">बिएल संवाददाता - काठमाडाैं</p>
+                            <p class="text-left" style="font-size:26px ;max-width:500px">
+                              वायुमण्डलमा आद्रता बढेपछि धुँलो र धुँवासहित काठमाडौँमा हिड्दै एक युवा। उपत्यकासहितको
+                              वायुको गुणस्तर मानव स्वास्थ्यका लागि खतरा देखिएपछि सतर्कता अपनाउन आग्रह गरेको छ। तस्बिर-
+                              सुलभ श्रेष्ठ/देश सञ्‍चार</p>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block "
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="Third slide">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <p class="text-left" tyle="font-size:26px ;max-width:500px">बिएल संवाददाता - काठमाडाैं</p>
+                              <p class="text-left" style="font-size:26px ;max-width:500px">
 
-                        </p>
+                                वायुमण्डलमा आद्रता बढेपछि धुँलो र धुँवासहित काठमाडौँमा हिड्दै एक युवा। उपत्यकासहितको
+                                वायुको गुणस्तर मानव स्वास्थ्यका लागि खतरा देखिएपछि सतर्कता अपनाउन आग्रह गरेको छ। तस्बिर-
+                                सुलभ श्रेष्ठ/देश सञ्‍चार</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block "
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="Third slide">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <p class="text-left" tyle="font-size:26px ;max-width:500px">बिएल संवाददाता - काठमाडाैं</p>
+                              <p class="text-left" style="font-size:26px ;max-width:500px">
+
+                                वायुमण्डलमा आद्रता बढेपछि धुँलो र धुँवासहित काठमाडौँमा हिड्दै एक युवा। उपत्यकासहितको
+                                वायुको गुणस्तर मानव स्वास्थ्यका लागि खतरा देखिएपछि सतर्कता अपनाउन आग्रह गरेको छ। तस्बिर-
+                                सुलभ श्रेष्ठ/देश सञ्‍चार</p>
+
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block "
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="Third slide">
+                          <div class="container">
+                            <div class="carousel-caption">
+                              <p class="text-left" tyle="font-size:26px ;max-width:500px">बिएल संवाददाता - काठमाडाैं</p>
+                              <p class="text-left" style="font-size:26px ;max-width:500px">
+
+                                वायुमण्डलमा आद्रता बढेपछि धुँलो र धुँवासहित काठमाडौँमा हिड्दै एक युवा। उपत्यकासहितको
+                                वायुको गुणस्तर मानव स्वास्थ्यका लागि खतरा देखिएपछि सतर्कता अपनाउन आग्रह गरेको छ। तस्बिर-
+                                सुलभ श्रेष्ठ/देश सञ्‍चार</p>
+
+                            </div>
+                          </div>
+                        </div>
                       </div>
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                          <img src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/05165801/Bhojpur.jpg"
+                            alt="">
+
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                          <img
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="">
+
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                          <img
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="">
+
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3">
+                          <img
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="">
+
+                        </li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="4">
+                          <img
+                            src="https://assets.deshsanchar.com/wp-content/uploads/2021/01/24151756/Sherdha-rai1-1024x683.jpg"
+                            alt="">
+
+                        </li>
+                      </ol>
+
+
                     </div>
-
                   </div>
                 </div>
-               
               </div>
-            
             </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+          </div>
+      </section>
+
+      <div class="container-fluid">
+        <!-- section-9 -->
+        <div class="row">
+
+          <div class="col-sm-12 col-md-12 col-lg-12 ">
+            <div class="news-block">
+              <div class="block-header">
+                <h2>
+                  <a href="#">घुमफिर</a>
+                </h2>
+              </div>
+              <div class="block-body">
+                <div class="row">
+
+                  <div class="col-sm-12 col-md-6 col-lg-6 " style="padding: 20px;">
+
+                    <div class="news-item-t2" style="position: relative;">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/Business/others/6006acc763312.jpg" alt="">
+                      </figure>
+                      <div class="news-content content-overlay">
+                        <br>
+                        <div class="news-title text-center">
+                          <h5><a class="gf-h-text" href="#">अब अन्तरंग दृश्य नदिने नायिका कायरा
+                              नाइटलीकाे घाेषणा</a></h5>
+                        </div>
+
+                      </div>
+                      <div class="media-list " >
+                        <ul class="d-flex">
+                          <li class="mr-2">
+                           <i class="fab fa-facebook-square" ></i>
+                          </li>
+                          <li class="mr-2">
+                            <i class="fab fa-instagram"></i>
+                          </li>
+                          <li class="mr-2">
+                            <i class="fab fa-twitter-square"></i>
+                          </li>
+                        </ul>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2">
+
+                    <div class="news-item-t2">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/Business/others/6006acc763312.jpg" alt="">
+                      </figure>
+                      <div class="news-content">
+                        <div class="news-title mt-3">
+                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                        </div>
+                        <div class="news-author"><a href="#">
+                            नागरिक दैनिक - काठमाडाैं</a>
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <div class="news-item-t2 ">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/social/Dunlin_(Calidris_alpina)_juvenile.jpg"
+                          alt=""></figure>
+                      <div class="news-content">
+                        <div class="news-title mt-3">
+                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                        </div>
+                        <div class="news-author"><a href="#">
+                            नागरिक दैनिक - काठमाडाैं</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2">
+
+                    <div class="news-item-t2 ">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/social/Dunlin_(Calidris_alpina)_juvenile.jpg"
+                          alt=""></figure>
+                      <div class="news-content">
+                        <div class="news-title mt-3">
+                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                        </div>
+                        <div class="news-author"><a href="#">
+                            नागरिक दैनिक - काठमाडाैं</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="news-item-t2 ">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/SAUN/GHUMPHIR/Tiger/Arna_koshitappu.jpg"
+                          alt=""></figure>
+                      <div class="news-content">
+                        <div class="news-title mt-3">
+                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                        </div>
+                        <div class="news-author"><a href="#">
+                            नागरिक दैनिक - काठमाडाैं</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-12 col-md-2 col-lg-2">
+
+                    <div class="news-item-t2 ">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/social/Dunlin_(Calidris_alpina)_juvenile.jpg"
+                          alt=""></figure>
+                      <div class="news-content">
+                        <div class="news-title mt-3">
+                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                        </div>
+                        <div class="news-author"><a href="#">
+                            नागरिक दैनिक - काठमाडाैं</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="news-item-t2 ">
+                      <figure class="news-image"><img
+                          src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/SAUN/GHUMPHIR/Tiger/Arna_koshitappu.jpg"
+                          alt=""></figure>
+                      <div class="news-content">
+                        <div class="news-title mt-3">
+                          <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
+                        </div>
+                        <div class="news-author"><a href="#">
+                            नागरिक दैनिक - काठमाडाैं</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-footer">
+                <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3 col-lg-3">
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="#">ब्लग</a>
-              </h2>
-            </div>
-            <div class="block-body">
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-              <div class="news-item bd">
-                <figure class="news-image"><img src="/images/nagarik.jpg" alt=""></figure>
-                <div class="news-content">
-                  <div class="news-title">
-                    <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                  </div>
-                  <div class="news-author"><a href="#">
-                      नागरिक दैनिक - काठमाडाैं</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>
+      </div>
+    </section>
+
+
+    <!-- page-footer -->
+    <section class="page-footer">
+      <div class="container-fluid">
+        <div class="row pt-5 pb-5">
+          <div class="col-sm-12 col-md-3">
+            <img width="100px" src="/images/logo.png" alt="">
+            <h4 class="mt-3" style="color:#fff !important">BL Media Pvt Ltd</h4>
+            <p style="color:#fff !important">Media for all across the globe</p>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h2>अन्य संस्करण</h2>
+            <ul>
+              <li><a href="#">नेपाली</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Hindi </a></li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h2>सम्पर्क गर्नुहोस्</h2>
+            <ul>
+              <li><a href="#">ईमेल : info@breaknlinks.com</a></li>
+              <li><a href="#">सम्पर्क नम्बर : +97714496040</a></li>
+              <li><a href="#">दर्ता नम्बर : 1350/2075-76 </a></li>
+              <li><a href="#">ठेगाना : New Baneshwore,10 Kathmandu </a></li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <h2>Social Links</h2>
+            <ul class="d-flex social-media">
+              <li>
+                <a href="" class="social-link">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="social-link">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="social-link">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="" class="social-link">
+                  <i class="fab fa-youtube-square"></i>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <p class="text-center" style="color: #fff;">Copyright © 2021 - BL Media. All rights reserved.</p>
           </div>
         </div>
       </div>
-         <!-- section-9 -->
-      <div class="row">
-
-        <div class="col-sm-12 col-md-12 col-lg-12 ">
-          <div class="news-block">
-            <div class="block-header">
-              <h2>
-                <a href="#">घुमफिर</a>
-              </h2>
-            </div>
-            <div class="block-body">
-              <div class="row">
-                
-                <div class="col-sm-12 col-md-8 col-lg-8 " style="padding: 20px;">
-
-                  <div class="news-item-t2">
-                    <figure class="news-image"><img
-                        src="https://breaknlinks.s3.amazonaws.com/nepali/Business/others/6006acc763312.jpg"
-                        alt=""></figure>
-                   
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-2 col-lg-2">
-               
-                  <div class="news-item-t2">
-                    <figure class="news-image"><img
-                        src="https://breaknlinks.s3.amazonaws.com/nepali/Business/others/6006acc763312.jpg"
-                        alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                      </div>
-                      <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="news-item-t2 bd">
-                    <figure class="news-image"><img
-                        src="https://breaknlinks.s3.amazonaws.com/nepali/social/Dunlin_(Calidris_alpina)_juvenile.jpg"
-                        alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                      </div>
-                      <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-2 col-lg-2">
-               
-                  <div class="news-item-t2 ">
-                    <figure class="news-image"><img
-                        src="https://breaknlinks.s3.amazonaws.com/nepali/social/Dunlin_(Calidris_alpina)_juvenile.jpg"
-                        alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                      </div>
-                      <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="news-item-t2 bd">
-                    <figure class="news-image"><img
-                        src="https://breaknlinks.s3.amazonaws.com/nepali/uploads/SAUN/GHUMPHIR/Tiger/Arna_koshitappu.jpg"
-                        alt=""></figure>
-                    <div class="news-content">
-                      <div class="news-title mt-3">
-                        <h5><a href="#">सरकारको स्वीकृतिबिनै नेपाली युवा कतार प्रहरीमा</a></h5>
-                      </div>
-                      <div class="news-author"><a href="#">
-                          नागरिक दैनिक - काठमाडाैं</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="block-footer">
-              <a href="#">सबै &nbsp; <i class="fas fa-arrow-right"></i></a>
-            </div>  
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- page-footer -->
-  <section class="page-footer" >
-    <div class="container-fluid">
-      <div class="row pt-5 pb-5">
-        <div class="col-sm-12 col-md-3">
-          <img width="100px" src="/images/logo.png" alt="">
-          <h4 class="mt-3" style="color:#fff !important">BL Media Pvt Ltd</h4>
-          <p style="color:#fff !important">Media for all across the globe</p>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h2>अन्य संस्करण</h2>
-          <ul>
-            <li><a href="#">नेपाली</a></li>
-            <li><a href="#">English</a></li>
-            <li><a href="#">Hindi </a></li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h2>सम्पर्क गर्नुहोस्</h2>
-          <ul>
-            <li><a href="#">ईमेल : info@breaknlinks.com</a></li>
-            <li><a href="#">सम्पर्क नम्बर : +97714496040</a></li>
-            <li><a href="#">दर्ता नम्बर : 1350/2075-76 </a></li>
-            <li><a href="#">ठेगाना : New Baneshwore,10 Kathmandu </a></li>
-          </ul>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <h2>Social Links</h2>
-          <ul class="d-flex social-media">
-            <li>
-              <a href="" class="social-link">
-                <i class="fab fa-facebook-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="" class="social-link">
-                <i class="fab fa-twitter-square"></i>
-              </a>
-            </li>
-            <li>
-              <a href="" class="social-link">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a href="" class="social-link">
-                <i class="fab fa-youtube-square"></i>
-              </a>
-            </li>
-           
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-12">
-          <p class="text-center" style="color: #fff;">Copyright © 2021 - BL Media. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
 
 
-  <script src="/app/js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
- 
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
-  </script>
-  <script type="text/javascript">
+    <script src="/app/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript">
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll > 200) {
+          $(".page-header__bottom").addClass('fixed-top');
+        } else {
+          $(".page-header__bottom").removeClass('fixed-top');
+        }
+      })
 
-          
-              $(window).scroll(function(){
-                var scroll = $(window).scrollTop();
-                if (scroll > 200){
-                  $(".page-header__bottom").addClass('fixed-top');
-                }else{
-                  $(".page-header__bottom").removeClass('fixed-top');
-                }
-              })
+      $(".search-icon").click(function () {
+        $(".searchBar").slideToggle(300);
+      });
 
-              $(".search-icon").click(function(){
-                $(".searchBar").slideToggle(300);
-              });
+      $('#myCarousel').carousel({
+        interval: 1000
+      })
 
-              $('#myCarousel').carousel({
-                interval: 1000
-            })
-            
-            $('.carousel .carousel-item').each(function() {
-                var minPerSlide = 4;
-                var next = $(this).next();
-                if (!next.length) {
-                    next = $(this).siblings(':first');
-                }
-                next.children(':first-child').clone().appendTo($(this));
-            
-                for (var i = 0; i < minPerSlide; i++) {
-                    next = next.next();
-                    if (!next.length) {
-                        next = $(this).siblings(':first');
-                    }
-                    next.children(':first-child').clone().appendTo($(this));
-                }
-            });
-  </script>
-</body>
+      $('.photoCarousel .carousel-item').each(function () {
+        var minPerSlide = 4;
+        var next = $(this).next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
 
-</html>
+        for (var i = 0; i < minPerSlide; i++) {
+          next = next.next();
+          if (!next.length) {
+            next = $(this).siblings(':first');
+          }
+          next.children(':first-child').clone().appendTo($(this));
+        }
+      });
+    </script>
+  </body>
+
+  </html>
