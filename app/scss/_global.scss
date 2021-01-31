@@ -58,7 +58,9 @@ h5 {
 //button-all
 .all-button {
 }
-
+.bd {
+  border-bottom: 1px dotted $dark-gray;
+}
 .news-block {
   .block-header {
     padding-left: 20px;
@@ -111,9 +113,6 @@ h5 {
   }
 
   .block-body {
-    .bd {
-      border-bottom: 1px dotted $dark-gray;
-    }
     .news-item {
       display: flex;
       padding: 0.9375em 0;
@@ -193,9 +192,14 @@ h5 {
     }
   }
   .news-details-description {
+    padding: 20px 50px;
+
     p {
       font-size: 22px;
       line-height: 2.2em !important;
     }
+  }
+  .news-details-footer {
+    padding: 0px 50px;
   }
 }
