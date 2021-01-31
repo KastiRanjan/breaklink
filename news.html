@@ -538,8 +538,8 @@
                                         <label for="message">प्रतिकृया</label>
                                         <textarea class="form-control" id="message" rows="3"></textarea>
                                     </div>
-                                    <button class="btn btn-success">प्रतिकृया दिनुहोस् </button>
-                                    <button class="btn btn-danger">रद्द गर्नुहोस् </button>
+                                    <button type="submit" class="btn btn-success submit">प्रतिकृया दिनुहोस् </button>
+                                    <button class="btn btn-danger reset">रद्द गर्नुहोस् </button>
                                 </form>
                                 <div class="news-comment">
                                     No Comment
@@ -1315,7 +1315,15 @@
              $(".news-comment").css("display","block")
             }
          )
-      
+         $('.submit').click(function(e){
+            e.preventDefault();
+          
+        });
+         $('.reset').click(function(e){
+            e.preventDefault();
+            $('form').trigger('reset')
+            // Code goes here
+        });
     </script>
 </body>
 
