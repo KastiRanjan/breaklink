@@ -527,7 +527,23 @@
     }
   }
 }
+.news-comment {
+  display: none;
+  border-radius: 10px;
+  font-size: 18px;
+  .news-comment-message {
+    span {
+      font-size: 12px;
+    }
+  }
+}
 
+.at-share-btn {
+  &:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+  }
+}
 .article__share--footer {
   // margin-top: 2rem;
   text-align: left;
@@ -572,7 +588,4 @@
 }
 .at-resp-share-element .at-share-btn .at-icon-wrapper {
   float: left;
-}
-.news-comment {
-  display: none;
 }

@@ -192,8 +192,11 @@ h5 {
     }
   }
   .news-details-description {
-    padding: 20px 50px;
+    padding: 10px;
 
+    @media (min-width: 1365px) {
+      padding: 20px 60px;
+    }
     p {
       font-size: 22px;
       line-height: 2.2em !important;
