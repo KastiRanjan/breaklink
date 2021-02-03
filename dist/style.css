@@ -857,4 +857,11 @@ h5 {
     top: 100px;
   }
 }
+
+@media (min-width: 1200px) {
+  .left-content {
+    position: sticky;
+    top: 100px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

@@ -596,3 +596,9 @@
     top: 100px;
   }
 }
+.left-content {
+  @include breakpoint-up(large) {
+    position: sticky;
+    top: 100px;
+  }
+}
