@@ -203,7 +203,7 @@ h5 {
 
 @media (min-width: 1365px) {
   .news-details .news-details-description {
-    padding: 20px 40px;
+    padding: 20px 60px;
   }
 }
 
@@ -849,5 +849,12 @@ h5 {
 
 .at-resp-share-element .at-share-btn .at-icon-wrapper {
   float: left;
+}
+
+@media (min-width: 1200px) {
+  .right-content {
+    position: sticky;
+    top: 100px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -589,3 +589,10 @@
 .at-resp-share-element .at-share-btn .at-icon-wrapper {
   float: left;
 }
+
+.right-content {
+  @include breakpoint-up(large) {
+    position: sticky;
+    top: 100px;
+  }
+}
